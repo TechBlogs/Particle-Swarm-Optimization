@@ -25,3 +25,16 @@ The idea behind PSO is to start with a set of Particles (The Initial Swarm), and
 What is specific to a given problem is its [Objective Function](https://en.wikipedia.org/wiki/Test_functions_for_optimization). Once a problem (which is suitable for PSO) is analyzed, its solutions space, particle dimensions, constraints and Objective Function are determined. The goal of the PSO algorithm then becomes to minimize or maximize this objective function.
 
 The particle which yields the most suitable value from the objective function under the given constraints becomes the optimal solution retrieved from PSO.
+
+**The Backbone of PSO**
+
+At the core of the Particle Swarm Optimization Technique are 2 equations - the velocity equation and the position equation.
+    
+Let Xi represent the i-th particle in the swarm at time t (continuing the example above, X1 = 20 + 5 + -13 + 19 + 21 at t = 0 and X2 = 37 + 11.56 + -50 + 92 + 3 at t = 0).
+At every time step (t = 1, 2, 3...), the position of Particle Xi is changed using the equation:
+
+    Xi (t + 1) = Xi (t) + Vi (t + 1)
+    
+    Where Xi (t + 1) means the position of i-th particle at time step t + 1 (the next position), Xi (t) represents the current position of the particle and Vi (t + 1) is the next Velocity of the i-th Particle.
+    
+    The next velocity Vi (t + 1) is then:
