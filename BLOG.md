@@ -37,4 +37,5 @@ At every time step (t = 1, 2, 3...), the position of Particle Xi is changed usin
     
     Where Xi (t + 1) means the position of i-th particle at time step t + 1 (the next position), Xi (t) represents the current position of the particle and Vi (t + 1) is the next Velocity of the i-th Particle.
     
-    The next velocity Vi (t + 1) is then:
+    
+Here is a related answer I wrote on Quora: https://www.quora.com/As-a-programmer-what-is-the-coolest-thing-you-have-ever-created-alone/answer/Raghav-Dua-2
